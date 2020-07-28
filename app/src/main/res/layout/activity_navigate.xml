@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/linearla"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<com.mapbox.mapboxsdk.maps.MapView
+    android:layout_width="match_parent"
+    android:id="@+id/mapView"
+    android:layout_weight="1"
+    mapbox:mapbox_cameraZoom="15"
+    android:layout_height="match_parent" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="Navigate"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@color/colorAccent"
+        android:textColor="#eeeeee"
+        android:textSize="30dp"
+        android:id="@+id/navigate"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

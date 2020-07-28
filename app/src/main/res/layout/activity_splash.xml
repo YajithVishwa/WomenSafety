@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/linear"
+    android:background="@drawable/bg_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_centerInParent="true"
+        android:layout_width="400dp"
+        android:background="@drawable/splash"
+
+        android:layout_height="400dp"/>
+</RelativeLayout>
